@@ -1,13 +1,13 @@
 import './App.scss';
-import { Routes } from 'react-router-dom';
-import { Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+
 import routes from './assets/routes';
 
 
 
 function App() {
   return (
-    <Routes>
+      <Routes>
         {routes.filter(r => r.isNav).map(r => 
           <Route 
             exact path={r.path} 
@@ -15,7 +15,7 @@ function App() {
             element={<r.element 
             />} 
           />)}
-    </Routes>
+      </Routes>
   );
 }
 

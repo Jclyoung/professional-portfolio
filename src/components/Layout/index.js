@@ -1,11 +1,9 @@
 import './index.scss'
-import SideBar from '../Sidebar'
+import Sidebar from '../Sidebar'
 
 const Layout = () => {
 return (
-  <>
-    <SideBar />
-  </>
+  <Sidebar />
   )
 }
 
