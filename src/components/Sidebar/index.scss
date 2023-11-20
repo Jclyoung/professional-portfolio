@@ -14,11 +14,11 @@
     img {
       display: block;
       margin: 8px auto;
-      width: 48px;
+      width: 60px;
       height: 75px;
 
       &.sub-logo {
-        width: 50px;
+        width: 60px;
         height: 100%;
       }
     }
@@ -43,7 +43,7 @@
       text-decoration: none;
 
       i {
-        transition: all 0.3s ease-out;
+        transition: all 0.8s ease-out;
       }
 
       &:hover {
@@ -68,8 +68,8 @@
         width: 100%;
         text-align: center;
         opacity: 0;
-        -webkit-transition: all 0.3s ease-out;
-        transition: all 0.3s ease-out;
+        -webkit-transition: all 0.8s ease-out;
+        transition: all 0.8s ease-out;
       }
 
       &:first-child {
