@@ -44,7 +44,7 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
         </li>
-                <li>
+        <li>
           <a
             target="blank"
             rel="noreferer"
@@ -56,7 +56,7 @@ const Sidebar = () => {
           <a
             target="blank"
             rel="noreferer"
-            href="https://www.linkedin.com/in/youngjenn/">
+            href="skype:live:digitalunicorn">
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
         </li> 
