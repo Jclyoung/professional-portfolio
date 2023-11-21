@@ -4,10 +4,16 @@ import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
   return (
-  <div className="App">
+  <div className='App'>
     <Sidebar />
-      <section className="page">
-        <span className='tags top-tags'>&lt;body&gt;</span>
+      <section className='page'>
+        <span className='tags top-tags'>
+        <span className='top-tag-html'>
+          &lt;html&gt;
+        </span>
+          <br />
+          &lt;body&gt;
+        </span>
         <Outlet />
         <span className='tags bottom-tags'>
           &lt;/body&gt;
