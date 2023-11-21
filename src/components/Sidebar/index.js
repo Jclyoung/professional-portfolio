@@ -4,7 +4,7 @@ import LogoJ from '../../assets/images/logo-j.png'
 import LogoSubtitle from '../../assets/images/logo_ssub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope  } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => {
   return(
@@ -57,7 +57,7 @@ const Sidebar = () => {
             target="blank"
             rel="noreferer"
             href="skype:live:digitalunicorn">
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
           </a>
         </li> 
       </ul>

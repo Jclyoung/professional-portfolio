@@ -1,20 +1,16 @@
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
-
-import routes from './assets/routes';
+import Layout from './components/Layout';
+import Home from './components/Home';
 
 
 
 function App() {
   return (
       <Routes>
-        {routes.filter(r => r.isNav).map(r => 
-          <Route 
-            exact path={r.path} 
-            key={r.title} 
-            element={<r.element 
-            />} 
-          />)}
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
       </Routes>
   );
 }
