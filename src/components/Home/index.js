@@ -1,10 +1,16 @@
 import './index.scss'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import LogoTitle from '../../assets/images/logo-cropp.png'
 import Letters from '../Letters'
-import { useState } from 'react'
+import Logo from './Logo'
 
 const Home = () => {
+  useEffect(() => {
+    setTimeout(() => {
+      setCharClass('animate-text-hover')
+    }, 5000)
+  }, [])
   const [ charClass, setCharClass ] = useState( 'animate-text' );
   const nameArray = ['e','n','n','i','f','e','r',' ',':']
   const jobArray = ['W','e','b',' ','D','e','v','e','l','o','p','e','r','.']
@@ -40,6 +46,7 @@ const Home = () => {
         <h2>Frontend Developer / JavaScript & React Expert</h2>
         <Link to='/contact' className='flat-button'>Contact Me</Link>
       </section>
+      <Logo/>
     </div>
   )
 }
