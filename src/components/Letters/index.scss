@@ -13,8 +13,15 @@
   
   &:hover {
     animation: rubberband 1s;
-    color: #ffed84;
+    color: hsl(189, 100%, 50%);
   }
+  
+  &:nth-child(even){
+    &:hover {
+      color: hsl(0, 100%, 88%);
+    } 
+  }
+  
 }
 
 
